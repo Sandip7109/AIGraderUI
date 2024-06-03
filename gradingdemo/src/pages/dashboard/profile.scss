@@ -1,0 +1,18 @@
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-uplad {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px dashed rgb(202, 11, 11);
+  height: 300px;
+  width: 500px;
+  cursor: pointer;
+  border-radius: 15px;
+}

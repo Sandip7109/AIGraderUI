@@ -1,0 +1,74 @@
+input:required::after {
+    content: "*";
+    color: rgb(9, 1, 32); 
+    margin-left: 80px;
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      transform: translateY(40px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0px);
+      opacity: 1;
+    }
+  }
+  .parent-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  form {
+    animation: fadeInUp 0.5s ease-out forwards;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    opacity: 0; 
+  }
+  h2 {
+    margin: 20px;
+    padding: 10px;
+    font-size: 30px !important;
+  }
+  .label-name {
+    margin-right: 100px;
+  }
+  input[type="number"],
+  input[type="text"] {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  input[type="number"]:focus,
+  input[type="text"]:focus {
+    border-color: #1a0219;
+    box-shadow: 0 0 8px rgba(34, 166, 179, 0.2);
+    outline: none;
+  }
+  
+  .button {
+    background-color: #2a1133 !important;
+    color: #ffffff !important;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.2s;
+    display: block;
+    width: 50%;
+  }
+  

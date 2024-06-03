@@ -1,0 +1,173 @@
+@keyframes fadeInUp {
+  from {
+    transform: translateY(0px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(40px);
+    opacity: 1;
+  }
+}
+@keyframes zoomIn {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+}
+.animated-text {
+  animation: fadeInUp 1s ease forwards;
+}
+@keyframes fadeInUp {
+  from {
+    transform: translateY(0px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(40px);
+    opacity: 1;
+  }
+}
+
+.animated-text {
+  animation: fadeInUp 1s ease forwards;
+}
+.parent-div {
+  display: flex;
+  height: auto;
+  flex-direction: column !important;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.form-ass {
+  animation: fadeInUp 0.5s ease-out forwards;
+  width: 800px;
+  height: 750px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
+  background: rgb(255, 255, 255, 0.5);
+  border-radius: 8px;
+  box-shadow: 10px 14px 16px rgba(6, 6, 6, 0.945);
+  opacity: 1;
+}
+.h2-ass {
+  margin: 10px;
+  padding: 10px;
+  font-size: 30px !important;
+  color: #1b1b5e !important;
+  color: #4c4cba !important;
+}
+
+.div-input-parent {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.div-input-parent-rubric {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+}
+.div-input-rubrics {
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.div-input-dyn-1 {
+  width: 80% !important;
+  margin-right: 10px;
+}
+.div-input-dyn-2 {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.div-input-dyn-3 {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.remove-rubric-btn {
+  color: rgb(138, 38, 11);
+  font-size: 25px !important;
+  margin-left: 10px;
+  margin-top: 8px;
+  cursor: pointer;
+}
+.add-btn {
+  color: rgb(5, 27, 193);
+  font-size: 30px !important;
+  margin-left: 10px;
+  margin-top: 8px;
+  cursor: pointer;
+}
+.div-input {
+  width: 100%;
+  padding: 15px;
+}
+.div-input-1 {
+  width: 90% !important;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.div-input-2 {
+  margin: 10px;
+}
+
+.button-ass {
+  background-color: #110478 !important;
+  color: white !important;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.2s, background-color 0.2s;
+  display: block;
+  width: 30%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-shadow: 12px 14px 16px rgba(34, 22, 22, 0.9) !important;
+  opacity: 1 !important;
+}
+.button-ass-disabled{
+  background-color: rgb(196, 196, 196) !important;
+  color: white !important;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.2s, background-color 0.2s;
+  display: block;
+  width: 30%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-shadow: 12px 14px 16px rgba(34, 22, 22, 0.9) !important;
+  opacity: 1 !important;
+}
+.button-ass:hover {
+  background-color: #2a0369 !important;
+  cursor: pointer;
+  box-shadow: 12px 14px 16px rgba(34, 22, 22, 0.9) !important;
+  opacity: 1 !important;
+  animation: zoomIn 1s ease forwards !important;
+}
+.parent-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+}
+.modal-box{
+
+ animation: fadeInUp 0.5s ease-out forwards;
+}

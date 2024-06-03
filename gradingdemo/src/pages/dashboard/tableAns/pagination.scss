@@ -1,0 +1,30 @@
+@keyframes fadeInUp {
+  from {
+    transform: translateY(0px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(40px);
+    opacity: 1;
+  }
+}
+.exam-container {
+  animation: fadeInUp 1s ease forwards;
+  font-family: Arial, sans-serif;
+  width: auto;
+ 
+}
+
+.question-display {
+  margin-bottom: 5px;
+  padding: 20px;
+}
+
+.question-display h3 {
+  margin: 0 0 10px 0;
+}
+
+.question-display p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
